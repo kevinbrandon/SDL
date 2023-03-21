@@ -2714,7 +2714,7 @@
 	displays where applications rendering at the native
 	resolution would be too small to be legible.
 
-	It is intended that scaling aware clients track the
+	It is intended that scaling aware clients target the
 	current output of a surface, and if it is on a scaled
 	output it should use wl_surface.set_buffer_scale with
 	the scale of the output. That way the compositor can

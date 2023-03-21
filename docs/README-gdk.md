@@ -55,7 +55,7 @@ In your game's existing Visual Studio Solution, go to Build > Configuration Mana
 
 ### 2. Build SDL3 for GDK ###
 
-Open `VisualC-GDK/SDL.sln` in Visual Studio, you need to build the SDL3 target for the Gaming.Desktop.x64 platform (Release is recommended). You will need to copy/keep track of the `SDL3.dll`, `XCurl.dll` (which is output by Gaming.Desktop.x64), and `SDL3.lib` output files for your game project.
+Open `VisualC-GDK/SDL.sln` in Visual Studio, you need to build the SDL3 target for the Gaming.Desktop.x64 platform (Release is recommended). You will need to copy/keep target of the `SDL3.dll`, `XCurl.dll` (which is output by Gaming.Desktop.x64), and `SDL3.lib` output files for your game project.
 
 *Alternatively*, you could setup your solution file to instead reference the SDL3 project file targets from the SDL source, and add those projects as a dependency. This would mean that SDL3 would be built when your game is built.
 
